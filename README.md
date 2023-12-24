@@ -6,7 +6,7 @@ Welcome to my README page! My name is Huynh Le Tan Phat, born on 06/12/2008.
 
 ### Links
 - Email: contact.me.phat@gmail.
-- Facebook:https://www.facebook.com/BbiPhatt
+- Facebook: https://www.facebook.com/BbiPhatt
 - Discord:
 
 ## Issue regarding user reup
