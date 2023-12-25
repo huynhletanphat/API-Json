@@ -3,17 +3,14 @@ const app = express();
 const fs = require('fs');
 const moment = require('moment-timezone');
 
-// Middleware để log lượt truy cập của các router
 const logRouterAccess = (req, res, next) => {
   const currentTime = moment().tz('Asia/Ho_Chi_Minh').format('YYYY-MM-DD HH:mm:ss');
-  const keyword = req.query.keyword || ''; // Lấy từ khóa từ query string của URL
-  const url = req.originalUrl; // Lấy URL từ yêu cầu
+  const url = req.originalUrl;
 
   const logEntry = `
 ---------------------------
 Time: ${currentTime}
 Connect Router: ${url}
-Ping: ${res.statusCode}
 ---------------------------
 `;
   console.log(logEntry);
@@ -37,5 +34,5 @@ app.use('/OtherAPIs', logRouterAccess, QRCode);
 app.use('/media/pexels', logRouterAccess, pexelsRouter);
 
 app.listen(3000, () => {
-  console.log(`Server is running on port 3000`);
+  console.log(`done`);
 });
