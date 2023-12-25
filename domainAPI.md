@@ -3,8 +3,8 @@
 ---
 # Memes
 - input = ["dark", "nhanvan", "typical", lord]
-- ../api/meme/{input}
-- support languafe Vietnamese
+- ../meme/{input}
+- support language Vietnamese
 # OtherAPIs
 - QrCode
 + /OtherAPIs/qr?text=${input} (input: text or number)
