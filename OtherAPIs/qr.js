@@ -1,5 +1,3 @@
-// OtherAPIs/qr_log.js
-
 const express = require('express');
 const router = express.Router();
 const fs = require('fs');
@@ -8,12 +6,10 @@ const qr = require('qr-image');
 
 let qrCounter = 1;
 
-// Lưu counter hiện tại vào tệp
 function saveCounter() {
   fs.writeFileSync('qr_counter.txt', qrCounter.toString());
 }
 
-// Đọc counter từ tệp (nếu có)
 if (fs.existsSync('qr_counter.txt')) {
   qrCounter = parseInt(fs.readFileSync('qr_counter.txt', 'utf-8'));
 }
@@ -30,7 +26,6 @@ router.get('/qr', (req, res) => {
   try {
     const qrStream = qr.image(text, { type: 'png' });
 
-    // Ghi nhật ký vào tệp LogsGetsAPIs/OtherAPIs/qr_log.txt
     const logEntry = {
       Time: moment().tz('Asia/Ho_Chi_Minh').format('YYYY-MM-DD HH:mm:ss'),
       Text: text,
