@@ -1,0 +1,10 @@
+-------codesanbox-|
+.codesanbox
+.devcontainer
+.github
+------------------|
+node_modules
+.replit
+replit.nix
+package-lock.json
+package.json
