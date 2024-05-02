@@ -29,7 +29,7 @@ Chào mừng bạn đến với trang README của tôi! Tên tôi là Huynh Le 
 - Discord: 
 
 ## Vấn đề về việc reup (tái tải lên)
-Tôi muốn đề cập đến vấn đề về việc tái tải lên nội dung. Xin hãy lưu ý rằng việc tái sử dụng hoặc tái tải lên nội dung của tôi không cần sự xin phép hoặc thỏa thuận trước. tôi chỉ muỗn xin 1 stared cho repo này
+Tôi muốn đề cập đến vấn đề về việc tái tải lên nội dung. Xin hãy lưu ý rằng việc tái sử dụng hoặc tái tải lên nội dung của tôi không cần sự xin phép hoặc thỏa thuận trước. tôi muốn  stared cho repo này
 
 ## Liên hệ và Đóng góp
 Nếu bạn có bất kỳ câu hỏi, đề xuất hoặc muốn đóng góp vào dự án của tôi, xin vui lòng liên hệ qua các thông tin sau:
