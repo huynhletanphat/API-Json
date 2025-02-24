@@ -5,21 +5,12 @@
 Welcome to my README page! My name is Huynh Le Tan Phat, born on 06/12/2008.
 
 ### Links
-- Email: contact.me.phat@gmail.
-- Facebook: https://www.facebook.com/BbiPhatt
-- Discord:
+- Email: webworktanphat@gmail.com
+- Facebook: ...
+- Discord:...
 
 ## Issue regarding user reup
 Free
-
-## Contact and Contribution
-If you have any questions, suggestions, or would like to contribute to my project, please feel free to contact me through the following:
-
-- Email: contact.me.phat@gmail.com
-- Discord: conact.me.phat@gmail.com
-
-### Donate
-If you find my work helpful and would like to support it, you can donate via ...
 ## Giới thiệu chủ và bản quyền
 Chào mừng bạn đến với trang README của tôi! Tên tôi là Huynh Le Tan Phat, sinh ngày 06/12/2008.
 
